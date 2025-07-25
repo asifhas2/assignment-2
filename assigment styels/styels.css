@@ -223,10 +223,10 @@ margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center; 
+    background-image: linear-gradient(to left,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/deal-bloom.png); 
 }
+
 .sub-div0004{
     background-image: url(../assets/deal-ana.png);
     width: 100%;
@@ -241,7 +241,7 @@ margin-top: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-image: linear-gradient(to left,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/deal-ana.png);
 }
 .sub-div014{
    background-image: url(../assets/deal-zabo.png);
@@ -256,7 +256,7 @@ margin-top: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-image: linear-gradient(to left,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/deal-zabo.png);
 }
 
 /* fotter section  */
@@ -322,7 +322,9 @@ margin-top: 50px;
 .fotter-logo{
     display: flex;
     gap: 40px;
-    align-items: start;
+    justify-content: center;
+     align-items: center;
+     align-items:self-start ;
 }
 
 
@@ -375,7 +377,9 @@ margin-top: 50px;
 .div2-hading{
 margin-top: 50px;
 }
-
+.div2{
+    margin-top: 50px;
+}
 /* div 3 */
 
 .div-3{
@@ -453,5 +457,6 @@ margin-top: 50px;
 .fotter-logo{
     margin-top: 30px;
     margin-bottom: 30px;
+   
 }
 }
